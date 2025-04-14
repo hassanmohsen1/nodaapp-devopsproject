@@ -3,10 +3,7 @@ const app = express();
 const request = require('request');
 const wikip = require('wiki-infobox-parser');
 
-app.get('/', (req, res) => {
-    const message = `Hello World, I am pod :version 1.2.0` ;  // تنسيق النص بشكل صحيح
-    res.send(message);
-});
+
 
 //ejs
 app.set("view engine", 'ejs');
